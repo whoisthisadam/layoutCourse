@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Homework 2(page 2)</title>
+</head>
+<body>
+  <h1>Вставка изображений в HTML-документ</h1>
+  <hr>
+  <h2>Греция</h2>
+  <p>Греция находится в Южной Европе и занимает южную часть Балканского полуострова.</p>
+  <p>Территория страны делится на материковую часть, полуостров Пелопоннес 
+    и острова в Эгейском море (крупнейшие — Крит, Лесбос, Эвбея)
+  </p>
+  <figure>
+    <img src="img/img_peloponnese.png" alt="Peloponesse" width="35%">
+    <img src="img/img_peloponnese2.png" alt="Peloponesse 2" width="35%">
+    <figcaption style="font-size:smaller;">Рельеф страны представляет собой чередование гористой местности и безлесых выровненных участков,
+       живописных плодородных долин, мелких бухт, заливов, 
+       островных территорий, карстовых воронок и пещер в западной части Греции.
+    </figcaption>
+  </figure>
+  <hr>
+  <h2>Создание изображения в качестве карты</h2>
+  <img src="img/map_peloponnese.jpeg" alt="Peloponesse map" usemap="#peloponnese">
+  <map name="peloponnese">
+    <area shape="rect" coords="320,120,350,150" href="https://www.skg-airport.gr" alt="Saloniki airport" target="_blank">
+    <area shape="rect" coords="390,380,430,420" href="https://www.aia.gr" alt="Athens airport" target="_blank">
+    <area shape="rect" coords="120,430,160,470" href="https://www.zth-airport.gr" alt="Zakinf airport" target="_blank">
+    <area shape="rect" coords="720,505,760,565" href="https://www.kgs-airport.gr" alt="Kos airport" target="_blank">
+    <area shape="rect" coords="515 674 555 714" href="https://www.heraklion-airport.info" alt="Heraklion airport" target="_blank">
+    <area shape="rect" coords="815 570 855 610" href="https://www.rho-airport.gr" alt="Rhodes airport" target="_blank">
+  </map>
+  </body>
+</html>

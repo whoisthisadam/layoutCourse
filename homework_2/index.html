@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Homework 2(page 1)</title>
+</head>
+<body>
+  <h1>Теги для создания списков</h1>
+  <h2>Виды списков:</h2>
+   <ol type="a" reversed>
+    <li>маркированный список <a href="#mark_list_title">(unordered list)</a>;</li>
+    <li>нумерованный список<a href="#numbered_list_title">(ordered list)</a>;</li>
+    <li>список определений <a href="#def_list_title"> (definition list)</a>.</li>
+    <p>Маркированный и нумерованный 
+      списки представляют собой контейнеры, 
+      внутри которых располагаются элементы списка.
+   </ol>
+    </p>
+    <h3 id="mark_list_title">Маркированный список</h3>
+    <ul type="square" style="list-style-position: inside;">
+      <li>Маркированный список создается 
+        с помощью с помощью тега <code style="font-family: 'Times New Roman', 
+        Times, serif;">&lt;ul&gt;&lt;/ul&gt;</code>(unordered list). <br>
+        В качестве маркера элемента списка выступает метка, например, закрашенный кружок.
+      </li>
+      <li>Элементы маркированного списка создаются с помощью тега 
+        <code style="font-family: 'Times New Roman', Times, serif;">
+          &lt;li&gt;&lt;/li&gt;</code> (list item).
+      </li>
+    </ul>
+    <h3 id="numbered_list_title">Нумерованный список</h3>
+    <ul type="circle" style="list-style-position: outside;">
+      <li>Нумерованный список создается с помощью с помощью тега <code style="font-family: 'Times New Roman', Times, serif;">
+        &lt;ol&gt;&lt;/ol&gt;</code> (ordered list). <br> Нумерация может быть числовая или алфавитная.
+      </li>
+      <li>Элементы маркированного списка (по аналогии с маркированными списками)
+         создаются с помощью тега <code style="font-family: 'Times New Roman', Times, serif;"> 
+          &lt;li&gt;&lt;/li&gt;</code>(list item).
+      </li>
+    </ul>
+    <p>С помощью CSS-свойств можно изменить внешний вид 
+      маркера списка, добавить изображение для маркера и изменить его местоположение.
+    </p>
+    <img src="img/img.png" alt="List types">
+    <h3 id="def_list_title">Список определений</h3>
+    <ul style="list-style-image: url(img/icon.png);">
+      <li>Cписок определений создается с помощью с помощью тега <code style="font-family: 'Times New Roman', Times, serif;">
+        &lt;dl&gt;&lt;/dl&gt;</code> (definition list)
+      </li>
+      <li>Для добавления термина применяется тег <code style="font-family: 'Times New Roman', Times, serif;">&lt;dt&gt;&lt;/dt&gt;</code>, 
+        а для вставки определения — <code style="font-family: 'Times New Roman', Times, serif;">&lt;dd&gt;&lt;/dd&gt;</code>.
+      </li>
+    </ul>
+    <p>Списки можно помещать друг в друга. Например, внутрь маркированного 
+      списка можно вложить нумерованный список, и наоборот.</p>
+    <hr>
+    <a href="page2.html" target="_blank">Следующая тема</a>
+</body>
+</html>
