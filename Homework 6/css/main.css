@@ -1,0 +1,146 @@
+*{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 
+  Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin: 0;
+  font-weight: 500;
+  box-sizing: border-box;
+}
+
+.body{
+  margin: 0;
+}
+header{
+  text-align: center;
+  margin-bottom: 130px;
+}
+.page-title{
+  text-decoration-line: underline;
+  text-decoration-style: double;
+  font-weight: bold;
+}
+.container{
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+.block{
+  position: relative;
+  width: 950px;
+  left: 50%;
+  
+  transform: translate(-50%, -50%);
+  border-top: 3px solid #83a0aa;
+  border-right: 3px solid #83a0aa;
+  border-bottom: 3px dashed #83a0aa;
+  border-left: 3px dashed #83a0aa;
+}
+.block-charlotte{
+  
+  background-color: rgba(45, 174, 216, 0.235); 
+  top:430px;
+}
+.photo{
+  width: 288px;
+  height: 198px;
+  
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  right: 140px;
+  
+}
+.photo-charlotte{
+  background-image: url(/img/charlotte.jpeg);
+  border: 3px solid #345864;
+  top: -130px;
+}
+  .block-title{
+  text-decoration: underline;
+  font-weight: bold;
+  
+}
+.block-title-charlotte{
+  color: rgba(3, 41, 53, 0.755);
+}
+.text{
+  margin-top: 40px;
+  margin-left: 35px;
+}
+.about{
+  margin-top: 50px;
+}
+.first-letter{
+  font-size: x-large;
+  font-weight: 700;
+}
+.paragraph-title{
+  margin-top: 15px;
+  margin-bottom: 20px;
+  font-weight: 800;
+}
+.charlotte-p-t{
+  color: rgba(3, 41, 53, 0.755);
+}
+.marked-list-item{
+  text-decoration-line: underline;
+  text-decoration-style: dotted;
+}
+.marked-list-item-charlotte{
+  color: rgba(3, 41, 53, 0.755);
+}
+.block-finish{
+  margin-top: 60px;
+  font-weight: 500;
+  font-style: italic;
+  text-decoration: overline;
+  font-size: 13px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+.block-tiramisu{
+  top: 450px;
+  position: relative;
+  background-color: rgba(169, 169, 169, 0.18);
+  border-color: rgba(58, 58, 58, 0.762);
+}
+.block-title-tiramisu{
+  color: rgba(58, 58, 58, 0.762);
+}
+.photo-tiramisu{
+  border: 3px solid rgba(58, 58, 58, 0.762);
+  top: 880px;
+  background-image: url(/img/tiramisu.jpg);
+}
+.tiramisu-p-t{
+  color: rgba(58, 58, 58, 0.762);
+}
+.marked-list-item-tiramisu{
+  color: rgba(58, 58, 58, 0.762);
+  text-decoration-style: dashed;
+}
+.b-l-tiramisu{
+  text-align: center;
+}
+.block-cookies{
+  border-color: rgba(34, 74, 34, 0.831);
+  top: 550px;
+  position: relative;
+  background-color: rgba(143, 188, 143, 0.618);
+}
+.block-title-cookies{
+  color: rgba(34, 74, 34, 0.831);
+}
+.cookies-p-t{
+  color: rgba(34, 74, 34, 0.831);
+}
+.marked-list-item-cookies{
+  color: rgba(34, 74, 34, 0.831);
+  text-decoration-style:wavy ;
+}
+.photo-cookies{
+  border: 3px solid rgba(34, 74, 34, 0.831);
+  position: absolute;
+  top: -90px;
+  right: -140px;
+  background-image: url(/img/cookies.jpeg);
+}
