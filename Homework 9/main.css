@@ -1,0 +1,145 @@
+body{
+  box-sizing: border-box;
+  text-align: center;
+}
+.container{
+  width:70%;
+  height: 100vh;
+  margin: auto;
+  background-color: #e6e5f4;
+}
+header{
+  text-align: center;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+}
+li{
+  font-size: large;
+  padding: 10px;
+  background-color: #78c99a;
+  color: #fff;
+  border-radius: 43%;
+  transition-duration: 2000ms;
+}
+ul{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  list-style-type: none;
+}
+main{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+.main-item{
+  margin: 20px;
+  width: 150px;
+  height: 150px;
+  background-color: #540b82;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:#fff;
+  font-size: large;
+  transition: all 1.5s;
+}
+li:hover{
+  transform: scale(1.3);
+  background-color: chocolate;
+  color: black;
+}
+.main-item:hover{
+  animation-direction: alternate;
+  transform: rotate(90deg);
+}
+.circle-section{
+  position: relative;
+}
+.circle{
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+
+  animation: circle-bounce 3s linear infinite, circle-moveleft 15s linear infinite,
+  change-color 15s infinite
+}
+.circle:hover{
+  animation-play-state: paused;
+}
+@keyframes circle-bounce{
+  0%{
+    top: 0;
+    background-color: black;
+  }
+  20%{
+    background-color: aqua;
+  }
+  40%{
+    background-color: brown;
+  }
+  50%{
+    top: 150px;
+  }
+  60%{
+    background-color: darkblue;
+  }
+  80%{
+    background-color: darkorange;
+  }
+  100%{
+    top:0;
+  }
+}
+@keyframes circle-moveleft{
+  0%{
+    left:0;
+  }
+  50%{
+    left: 95%;
+  }
+  100%{
+    left:0;
+  }
+}
+@keyframes change-color {
+  0%{
+    background-color: black;
+  }
+  10%{
+    background-color: red;
+  }
+  20%{
+    background-color: aqua;
+  }
+  30%{
+    background-color: yellow;
+  }
+  40%{
+    background-color: brown;
+  }
+  50%{
+    background-color: yellowgreen;
+  }
+  60%{
+    background-color: darkblue;
+  }
+  70%{
+    background-color: crimson;
+  }
+  80%{
+    background-color: darkorange;
+  }
+  90%{
+    background-color: pink;
+  }
+  100%{
+    background-color: grey;
+  }
+}
